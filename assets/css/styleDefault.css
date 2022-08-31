@@ -83,4 +83,15 @@ body{
     border-radius: 5px;
     font-size: clam(5px, 5vw, 1rem);
     font-weight: 600;
+    color: white;
+    background-color: #444;
+    box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
+    cursor: pointer;
+    transition: 0.2s;
+
+}
+
+.button:active{
+    background-color: red;
+    box-shadow: inset -4px 4px 0 #222;
 }
