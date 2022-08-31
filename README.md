@@ -1,2 +1,2 @@
 # Pokedex-com-API
- Pokedex que consume uma API com resultados dados pokemons
+ Pokedex que consume uma API com dados de pokemons
