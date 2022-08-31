@@ -92,6 +92,6 @@ body{
 }
 
 .button:active{
-    background-color: red;
     box-shadow: inset -4px 4px 0 #222;
+    font-size: 0.9rem;
 }
