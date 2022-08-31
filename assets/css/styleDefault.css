@@ -79,5 +79,8 @@ body{
 .button{
     width: 50%;
     padding: 4%;
-    
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-size: clam(5px, 5vw, 1rem);
+    font-weight: 600;
 }
