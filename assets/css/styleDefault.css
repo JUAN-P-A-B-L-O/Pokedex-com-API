@@ -95,3 +95,12 @@ body{
     box-shadow: inset -4px 4px 0 #222;
     font-size: 0.9rem;
 }
+
+
+.ability{
+    position: absolute;
+    background-color: rgba(0, 187, 0, 0.342);
+    width: 100%;
+    max-width: 440px;
+    margin: auto;
+}
