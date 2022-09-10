@@ -14,6 +14,10 @@ const test = document.querySelector(`.test`);
 let pokemonIdNow = 1;
 
 const fetchPokemon = async (pokemon) => {
+    if(pokemon<0 || pokemon > 649) {
+        
+        return;
+    }
     const APIResponsee = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemon}`);
     if (APIResponsee.status === 200) {
         const data = await APIResponsee.json();
@@ -36,7 +40,7 @@ const renderPokemon = async (pokemon) => {
         inputSearch.value = ``;
         const seconAbility = data[`abilities`];
         test.innerHTML= data[`forms`][`0`][`url`];
-        if (seconAbility.length > 1) {
+        if (seconAbility.length > 1 ) {
             secondarySpecial.innerHTML = data[`abilities`][1][`ability`][`name`];
             return;
         }
